@@ -1,5 +1,5 @@
 {
-	"name": "@majo/password-generator",
+	"name": "majo-generator-password",
 	"version": "1.0.0",
 	"description": "Practical strong password generator",
 	"main": "src/index.js",

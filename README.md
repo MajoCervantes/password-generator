@@ -4,13 +4,13 @@ Majo Password Generator is a simple package that allows you to generate random p
 
 ## Install
 
-		npm install @majo/password-generator
+		npm install majo-generator-password
 
 ## Usage
 
 ## Configure Strategy
 
-The @majo/password-generator strategy is constructed as follows:
+The majo-generator-password strategy is constructed as follows:
 
     new generatePassword(length, options)
 
@@ -23,7 +23,7 @@ The @majo/password-generator strategy is constructed as follows:
 Example:
 
 ```js
-const { generatePassword } = require('@majo/password-generator');
+const { generatePassword } = require('majo-generator-password');
 
 // Generate a password of length 8
 const password = generatePassword(8);
