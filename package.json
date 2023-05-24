@@ -1,0 +1,27 @@
+{
+	"name": "@majo/password-generator",
+	"version": "1.0.0",
+	"description": "Practical strong password generator",
+	"main": "src/index.js",
+	"scripts": {
+		"test": "jest"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/MajoCervantes/password-generator.git"
+	},
+	"keywords": [
+		"password",
+		"generator",
+		"security",
+		"utility"
+	],
+	"author": "Majo Cervantes",
+	"license": "MIT",
+	"dependencies": {
+		"crypto": "^1.0.1"
+	},
+	"devDependencies": {
+		"jest": "^29.5.0"
+	}
+}
